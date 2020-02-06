@@ -28,7 +28,7 @@ function draw(e) {
     hue++;
     if (hue >= 360) {
         hue = 0;
-    }
+    } //Brush Size
     if (ctx.lineWidth >= 100 || ctx.lineWidth <= 1) {
         direction = !direction;
     }
